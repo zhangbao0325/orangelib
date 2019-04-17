@@ -1,0 +1,8 @@
+# BEGIN opmorange
+
+dist opmorange-0.7
+  modules opmorange-0.7
+
+module opmorange-0.7
+
+# END opmorange
