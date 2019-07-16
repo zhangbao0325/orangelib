@@ -1,5 +1,5 @@
-#  opmorange
-opm for orange 0.7    
+#  orangelib
+The 3rd party package for orange 0.7    
 
 # Usage:
 1 git clone orange项目后，执行命令：
@@ -15,7 +15,7 @@ opm for orange 0.7
 ```
 4 orange还依赖于luafilesystem和luasocket包，推荐用luarocks安装。
 
-# Problem 
+# Possible problem 
 opm和luarocks安装过程中可能遇到的报错：      
 1 Can't locate Digest/MD5.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /home/openresty/bin/opm line 16.
   BEGIN failed--compilation aborted at /home/openresty/bin/opm line 16.
