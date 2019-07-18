@@ -6,6 +6,9 @@ The 3rd party package for orange 0.7
 ```
     cd orange
     opm --install-dir=./ get zhangbao0325/orangelib
+    #luarocks install luafilesystem         //luarocks install lua dependencies             
+    #luarocks install luasocket
+    #luarocks install lrandom
 ```
 2 当前目录下会生成一份lualib文件目录，里面是所有orange 0.7 版本所依赖的lua包    
 3 修改conf/nginx.conf文件的lua_package_path如下：
